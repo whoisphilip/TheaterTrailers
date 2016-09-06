@@ -40,6 +40,11 @@ This application adds to the movie theater feel of your plex setup, by adding un
    * Caching is now supported! Set `playlistEndVar` to something high. Between 300 and 400. After the first run through, subsequent runs will be much faster
 8. This script can be ran manually like any other script or configured with Cron/Windows Task Scheduler.
    * Cron examples can be found [here](https://github.com/Electronickss/TheaterTrailers/wiki/Cron-Examples)
+   * 
+### Updating
+1. If you cloned the repository:
+   * `cd /path/to/TheaterTrailers/`
+   * `git pull origin master`
 
 ### From within Plex
    
