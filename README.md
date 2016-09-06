@@ -21,7 +21,7 @@ This application adds to the movie theater feel of your plex setup, by adding un
 
 ### From withing your OS
 
-1. Install Python. This module now supports both 2.7.x and 3.x 
+1. Install Python. This module supports 2.7.x and will support 3.x shortly 
    * Python for Windows can be found [here](https://www.python.org/downloads/windows/)
 2. Install PIP if it isn't already present
    * Check [this out](https://pip.pypa.io/en/stable/installing/) for help
@@ -31,9 +31,13 @@ This application adds to the movie theater feel of your plex setup, by adding un
    * `pip install tmdbsimple`
 5. Sign up at Movie DB for an account and [get a personal api key](https://www.themoviedb.org/documentation/api)
    * A walk through can be found [here](https://github.com/Electronickss/TheaterTrailers/wiki/Signing-up-for-a-TMDB-API-Key)
-6. Clone this repository or download it where you want it
-7. Edit the config file to include your api key, the path to where you cloned/downloaded the repository and the directory you want logs to reside. Remove `example` from the `trailers.conf` file. Adjust other settings as necessary
-   * I would suggest configuring `playlistEndVar` to somewhere around 300 for the first run through. After that it can be switched to 5
+6. Clone this repository using git
+7. Edit the config file
+   * include your api key
+   * the path to where you cloned the repository
+   * Remove `example` from the `trailers.conf` file. 
+   * Adjust other settings as necessary
+   * Caching is now supported! Set `playlistEndVar` to something high. Between 300 and 400. After the first run through, subsequent runs will be much faster
 8. This script can be ran manually like any other script or configured with Cron/Windows Task Scheduler.
    * Cron examples can be found [here](https://github.com/Electronickss/TheaterTrailers/wiki/Cron-Examples)
 
