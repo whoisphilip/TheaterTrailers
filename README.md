@@ -46,6 +46,7 @@ This application adds to the movie theater feel of your plex setup, by adding un
 If you cloned the repository:
    * `cd /path/to/TheaterTrailers/`
    * `git pull origin master`
+   * Make sure to add new config options from `trailers.example.conf` to your `trailers.conf`
 
 ### From within Plex
    
